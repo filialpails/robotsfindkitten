@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'robotsfindkitten/server'
+
+$SAFE = 1
+Dir.chdir(File.expand_path(File.join(File.dirname(__FILE__), '..')))
+DRb.start_service('druby://localhost:50293', RobotsFindKitten::Server.new)
+DRb.thread.join

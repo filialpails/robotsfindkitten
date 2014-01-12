@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'robotsfindkitten/client'
+
+client = RobotsFindKitten::Client.new
+client.connect
+client.start
