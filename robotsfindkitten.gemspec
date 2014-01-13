@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version = RobotsFindKitten::VERSION
 
   s.summary = 'Multi-user zen simulation.'
-  s.description = "In this game, you are robot (#). Your job is to find kitten. This task\nis complicated by the existence of various things which are not kitten.\nRobot must touch items to determine if they are kitten or not. The game\nends when robotfindskitten."
+  s.description = "In this game, you are robots (#). Your job is to find kitten. This task\nis complicated by the existence of various things which are not kitten.\nRobots must touch items to determine if they are kitten or not. The game\nends when robotfindskitten."
 
   s.author = 'Rob Steward'
   s.email = 'bobert_1234567890@hotmail.com'
